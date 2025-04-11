@@ -23,7 +23,7 @@ def main():
 
     handle_dialog(request.json, response)
 
-    logging.info('Response: %r', request.json)
+    logging.info(f'Response:  {response!r}')
 
     return jsonify(response)
 
